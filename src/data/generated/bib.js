@@ -1,17 +1,98 @@
 ﻿const generatedBibEntries = {
-    "Beck2016Visual": {
-        "abstract": "Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.",
-        "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
-        "doi": "10.1109/TVCG.2015.2467757",
-        "journal": "IEEE Transactions on Visualization and Computer Graphics",
-        "keywords": "type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser",
-        "number": "01",
-        "publisher": "IEEE",
-        "series": "TVCG",
-        "title": "Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}",
+    "he2024llmforest": {
+        "author": "He, T. and et al.",
+        "doi": "10.48550/arXiv.2410.21520",
+        "journal": "arXiv preprint arXiv:2410.21520",
+        "keywords": "type:hyper_heuristic, ensemble_learning, graph_prompts",
+        "title": "LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation",
         "type": "article",
-        "url": "http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf",
-        "volume": "22",
-        "year": "2016"
+        "year": "2024"
+    },
+    "jarrett2022hyperimpute": {
+        "author": "Jarrett, D. and et al.",
+        "doi": "10.48550/arXiv.2206.07769",
+        "journal": "arXiv preprint arXiv:2206.07769",
+        "keywords": "type:baseline, automl, model_selection",
+        "title": "HyperImpute: Generalized Iterative Imputation with Automatic Model Selection",
+        "type": "article",
+        "year": "2022"
+    },
+    "londe2025missforestpredict": {
+        "author": "Londe, L. and et al.",
+        "doi": "10.1371/journal.pone.0334125",
+        "journal": "PLOS ONE",
+        "keywords": "type:baseline, prediction_settings, machine_learning",
+        "title": "missForestPredict\u2014Missing data imputation for prediction settings",
+        "type": "article",
+        "year": "2025"
+    },
+    "mangussi2026llm": {
+        "author": "Mangussi, L. and et al.",
+        "doi": "10.48550/arXiv.2603.22332",
+        "journal": "arXiv preprint arXiv:2603.22332",
+        "keywords": "type:direct_llm, hallucination, tabular_data",
+        "title": "Large Language Models for Missing Data Imputation: Understanding Behavior, Hallucination Effects, and Control Mechanisms",
+        "type": "article",
+        "year": "2026"
+    },
+    "stekhoven2012missforest": {
+        "author": "Stekhoven, D. J. and B\u00fchlmann, P.",
+        "doi": "10.1093/bioinformatics/btr597",
+        "journal": "Bioinformatics",
+        "keywords": "type:baseline, random_forest, machine_learning",
+        "number": "1",
+        "pages": "112--118",
+        "title": "MissForest\u2014non-parametric missing value imputation for mixed-type data",
+        "type": "article",
+        "volume": "28",
+        "year": "2012"
+    },
+    "vanbuuren2011mice": {
+        "author": "van Buuren, S. and Groothuis-Oudshoorn, K.",
+        "doi": "10.18637/jss.v045.i03",
+        "journal": "Journal of Statistical Software",
+        "keywords": "type:baseline, statistical_methods, R_package",
+        "number": "3",
+        "pages": "1--67",
+        "title": "mice: Multivariate Imputation by Chained Equations in R",
+        "type": "article",
+        "volume": "45",
+        "year": "2011"
+    },
+    "wang2024deep": {
+        "author": "Wang, Y. and et al.",
+        "doi": "10.48550/arXiv.2402.04059",
+        "journal": "arXiv preprint arXiv:2402.04059",
+        "keywords": "type:survey, deep_learning, multivariate_data",
+        "title": "Deep Learning for Multivariate Time Series Imputation: A Survey",
+        "type": "article",
+        "year": "2024"
+    },
+    "wu2024llm": {
+        "author": "Wu, J. and et al.",
+        "booktitle": "Proceedings of the IJCAI 2024",
+        "doi": "10.24963/ijcai.2024/579",
+        "keywords": "type:hyper_heuristic, algorithm_selection, meta_learning",
+        "title": "Large Language Model-Enhanced Algorithm Selection: Towards Comprehensive Algorithm Representation",
+        "type": "inproceedings",
+        "year": "2024"
+    },
+    "ye2024reevo": {
+        "author": "Ye, H. and et al.",
+        "doi": "10.48550/arXiv.2402.01145",
+        "journal": "arXiv preprint arXiv:2402.01145",
+        "keywords": "type:hyper_heuristic, evolutionary_algorithms, llm_logic",
+        "title": "ReEvo: Large Language Models as Hyper-Heuristics with Reflective Evolution",
+        "type": "article",
+        "year": "2024"
+    },
+    "zhu2025llm": {
+        "author": "Zhu, X. and et al.",
+        "doi": "10.48550/arXiv.2501.02191",
+        "journal": "arXiv preprint arXiv:2501.02191",
+        "keywords": "type:direct_llm, message_passing, data_imputation",
+        "title": "On LLM-Enhanced Mixed-Type Data Imputation with High-Order Message Passing",
+        "type": "article",
+        "year": "2025"
     }
 };
